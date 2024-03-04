@@ -6,8 +6,6 @@
 
 using namespace std::chrono_literals;
 
-
-
 void init(){
     tc::hide_cursor();
 }
@@ -22,7 +20,7 @@ void loop(){
 
         tc::move_to((i++)%20,10);
         tc::set_fore_color(15); 
-        std::cout<<"    ";
+        std::cout << "  ";
         tc::reset_color();
         std::cout<<std::flush;
         std::this_thread::sleep_for(100ms);//s ms us ns for FPS:120 => 1000/120 = 8ms
@@ -35,8 +33,10 @@ void exit(){
 }
 
 int main(){
-    void init();
-    void loop();
-    void exit();
+    
+    init();
+    loop();
+    exit();
+
     return 0;
 }
