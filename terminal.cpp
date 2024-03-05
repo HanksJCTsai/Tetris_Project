@@ -1,5 +1,6 @@
+#include "define.h"
 #include "terminal.h"
-#include <iostream>
+
 
 #define CSI "\033["
 
