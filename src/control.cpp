@@ -1,6 +1,5 @@
-#include "control.h"
-
 #include "define.h"
+#include "control.h"
 #include "game.h"
 
 namespace gm {

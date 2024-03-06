@@ -1,5 +1,4 @@
 #include "game.h"
-
 #include "define.h"
 
 namespace gm {
